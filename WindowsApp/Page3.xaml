@@ -1,0 +1,55 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp3.Page3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <TextBlock HorizontalAlignment="Left" Height="768" TextWrapping="Wrap" VerticalAlignment="Top" Width="480" >
+    	<Run FontWeight="Bold" FontSize="40" Text="&#x9;HOW TO PLAY">
+    		<Run.Foreground>
+    			<SolidColorBrush Color="#FFC9BDBD">
+    				<SolidColorBrush.RelativeTransform>
+    					<MatrixTransform Matrix="Identity"/>
+    				</SolidColorBrush.RelativeTransform>
+    				<SolidColorBrush.Transform>
+    					<MatrixTransform Matrix="Identity"/>
+    				</SolidColorBrush.Transform>
+    			</SolidColorBrush>
+    		</Run.Foreground>
+    	</Run>
+    	<LineBreak/>
+    	<Run/>
+    	<LineBreak/>
+    	<Run FontWeight="Bold" Text="1"/>
+    	<Run FontWeight="Bold" Text=". Tap only button to play your chance. The border color decides the chance of the player."/>
+    	<LineBreak/>
+    	<Run FontWeight="Bold" Text="2"/>
+    	<Run FontWeight="Bold" Text=". The corner boxes"/>
+    	<Run FontWeight="Bold" Text=" and edges"/>
+    	<Run FontWeight="Bold" Text=" are different from the middle boxes."/>
+    	<LineBreak/>
+    	<Run FontWeight="Bold" Text="3. The corner boxes have capacity of one. Edges have capacity two. Middle Boxes have capacity of three."/>
+    	<LineBreak/>
+    	<Run FontWeight="Bold" Text="4. When their count exceeds their capacity they split to their adjacent cells."/>
+    	<LineBreak/>
+    	<Run FontWeight="Bold" Text="5"/>
+    	<Run FontWeight="Bold" Text=". The goal is to defeat the other players by diminishing all their "/>
+    	<Run FontWeight="Bold" Text="cells"/>
+    	<Run FontWeight="Bold" Text=". Players whose all "/>
+    	<Run FontWeight="Bold" Text="cells"/>
+    	<Run FontWeight="Bold" Text=" diminish looses. And the last player left wins"/>
+    	<Run Text="."/>
+    </TextBlock>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+
+</phone:PhoneApplicationPage>
